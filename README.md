@@ -10,8 +10,14 @@ As part of your application, please submit a small code sample hosted on your fa
   -  Accept a POST request to the route “/test”, which accepts one  argument “string_to_cut”
   - Return a JSON object with the key “return_string” and a string containing every third letter from the original string
 
+(e.g.) If you POST {"string_to_cut": "iamyourlyftdriver"}, it will return: {"return_string": "muydv"}
+
 Note: To see expected behavior you can test against a current working example with the command: curl -X POST https://lyft-interview-test.glitch.me/test --data '{"string_to_cut": "iamyourlyftdriver"}' -H 'Content-Type: application/json'
 
 (OR) -  
 
 - Code for a working app/feature developed on iOS, using Swift, which includes a README of what the app or feature does, and a couple of app-screenshots of what the functionality would look like visually to the user
+
+# Postman Test
+
+![image](https://user-images.githubusercontent.com/66088725/168144628-ffb172a0-54aa-4d70-b10f-284d5c75075a.png)
